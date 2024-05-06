@@ -1,0 +1,10 @@
+en:
+  mobile_id:
+    some_error: Įvyko klaida
+    timeout: "Mobile-ID sesija baigėsi laiku"
+    user_is_not_mobile_id_client: Naudotojas nėra Mobile-ID klientas.
+    user_cancelled: Naudotojas atšaukė Mobile-ID operaciją
+    signature_hash_mismatch: "Mobile-ID turi parašo problemą. Naudotojas turi susisiekti su savo mobiliojo ryšio operatoriumi."
+    phone_absent: Mobile-ID SIM kortelė nėra pasiekiama
+    delivery_error: Įvyko klaida siunčiant Mobile-ID SMS.
+    sim_error: Netinkamas atsakas iš Mobile-ID SIM kortelės
