@@ -1,3 +1,7 @@
+Release 0.0.13
+* Add SK ID Solutions EID-Q 2021E/2021R and 2024E/2024R issuing CAs and the SK ID Solutions ROOT G1E/G1R roots to the live store
+* Add the matching TEST CAs and roots to the test store
+
 Release 0.0.12
 * Supports session RUNNING state
 * Validate auth signature

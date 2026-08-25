@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mobile_id (0.0.12)
+    mobile_id (0.0.13)
       activesupport
       httparty
       i18n
@@ -76,6 +76,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-25
 
 DEPENDENCIES
   mobile_id!

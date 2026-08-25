@@ -14,6 +14,10 @@ module MobileId
           build_store([
                         File.join(root_path, 'EE_Certification_Centre_Root_CA.pem.crt'),
                         File.join(root_path, 'EE-GovCA2018.pem.crt'),
+                        File.join(root_path, 'EID-Q_2021E.pem.crt'),
+                        File.join(root_path, 'EID-Q_2021R.pem.crt'),
+                        File.join(root_path, 'EID-Q_2024E.pem.crt'),
+                        File.join(root_path, 'EID-Q_2024R.pem.crt'),
                         File.join(root_path, 'EID-SK_2011.pem.crt'),
                         File.join(root_path, 'EID-SK_2016.pem.crt'),
                         File.join(root_path, 'esteid2018.pem.crt'),
@@ -23,7 +27,9 @@ module MobileId
                         File.join(root_path, 'KLASS3-SK_2010_EECCRCA_SHA384.pem.crt'),
                         File.join(root_path, 'KLASS3-SK_2016_EECCRCA_SHA384.pem.crt'),
                         File.join(root_path, 'KLASS3-SK.pem.crt'),
-                        File.join(root_path, 'NQ-SK_2016.pem.crt')
+                        File.join(root_path, 'NQ-SK_2016.pem.crt'),
+                        File.join(root_path, 'SK_ID_Solutions_ROOT_G1E.pem.crt'),
+                        File.join(root_path, 'SK_ID_Solutions_ROOT_G1R.pem.crt')
                       ])
       end
 
@@ -31,7 +37,13 @@ module MobileId
         @test_store ||=
           build_store([
                         File.join(root_path, 'TEST_of_EE_Certification_Centre_Root_CA.pem.crt'),
-                        File.join(root_path, 'TEST_of_ESTEID-SK_2015.pem.crt')
+                        File.join(root_path, 'TEST_of_EID-Q_2021E.pem.crt'),
+                        File.join(root_path, 'TEST_of_EID-Q_2021R.pem.crt'),
+                        File.join(root_path, 'TEST_of_EID-Q_2024E.pem.crt'),
+                        File.join(root_path, 'TEST_of_EID-Q_2024R.pem.crt'),
+                        File.join(root_path, 'TEST_of_ESTEID-SK_2015.pem.crt'),
+                        File.join(root_path, 'TEST_of_SK_ID_Solutions_ROOT_G1E.pem.crt'),
+                        File.join(root_path, 'TEST_of_SK_ID_Solutions_ROOT_G1R.pem.crt')
                       ])
       end
 
